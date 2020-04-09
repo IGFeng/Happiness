@@ -17,7 +17,7 @@
 ## 环境配置-phpstudy及laravel的安装
 首先需要去phpstudy的官网下载phpstudy集成开发环境，确保路径中无中文，并确认设置中的网站目录放置在www路径下。  
 
-然后去composer的官网下载composer，选择command-line时选择一个php.exe文件，然后安装。在命令行输入 composer global require "laravel/installer" 如果速度太慢的话,可以更换成国内的源。（以下内容大部分来自于曹老板的github）然后打开phpstudy，启动mysql和nginx，创建一个站点。
+然后去composer的官网下载composer，选择command-line时选择一个php.exe文件，然后安装。在命令行输入 composer global require "laravel/installer" 如果速度太慢的话,可以更换成国内的源。然后从github上下载源代码并放置在www目录下。（以下内容大部分来自于曹老板的github）然后打开phpstudy，启动mysql和nginx，创建一个站点。
 * 域名随意
 * 第二域名可以留空
 * 端口号不要选择80端口，因为潘同学的聊天室默认创建在80端口上
